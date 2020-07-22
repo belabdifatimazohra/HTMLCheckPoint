@@ -1,0 +1,171 @@
+<!-- 
+  -------------------------- GoMyCode HTML Checkpoint ---------------------------
+  Developer; Fatima Zohra BELABDI
+  Create: 15/07/2020
+  Last Modified: 20/07/2020
+  Resume: create a portfolio web page with the instruction below:
+
+        - Semantic Tags (Done).
+        - Adds a video/Audio to web page (Done).
+        - Use Local Links use Lists Or Tables (Done).
+        - Use Forms
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> FATIMA ZOHRA BELABDI</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+
+    <!-- Semantic Tag Header -->
+    <header>
+        <div class="wrap">
+            <div class="title-area">
+
+                <img src="res/Fatima-Zohra_header.PNG" alt="Fatima Zohra">
+
+            </div>
+            <!-- 1-Create the navbar: Home,About,Work,Resume,Contact  -->
+            <div class="menu">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#inspiration"> Inspiration </a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Semantic Tag Main -->
+    <main>
+
+        <section id="home" class="home-section">
+            <div class="home-column">
+
+                <img src="res/Fatima-Zohra_home.PNG" alt="Fatima Zohra_home">
+            </div>
+
+        </section>
+
+
+        <section id="work" class=" work-section">
+            <div class="card-about">
+                <h6>
+                    work
+                </h6>
+                <div class="IT-work">
+                    <img src="res/IT_Dev.jpg" alt="Developer">
+                    <h4> Design and Development </h4>
+                    <p>
+                        Design new applications and improve product performance and efficiency while developing new
+                        manufacturing ideas and systems.
+                    </p>
+                </div>
+                <div class="Fit-work">
+                    <img src="res/LifeStyle.jpg" alt="LifeStyle">
+                    <h4> Fitness and Life Style </h4>
+                    <p>
+                        Stop Dieting! flow the revolutionary approach to resets your metabolism and live the life you
+                        deserve
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+
+            <div class="card-about">
+
+                <h6>
+                    About
+                </h6>
+                <img src="res/hi.PNG" alt="hi">
+                <div class="about">
+                    <h1>
+                        I am Fatima Zohra
+                    </h1>
+                    <p>
+                        A developer, fitness & lifestyle passionate
+                        , captivating motivational for new challenges.<br>
+                        Find more about me on my next projects with GoMycode !!
+                    </p>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <section id="resume" style="background-color:#464646; height: 400px;">
+
+            <div class="card-about" style="border-top: 0;">
+
+                <h6>
+                    Resume
+                </h6>
+                <div>
+                    <h1 style="color:#fff">
+                        Resume Section
+                    </h1>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="inspiration" style="height: 400px; margin-bottom: 50px;">
+            <div class="card-about">
+                <h6>
+                    Inspiration
+                </h6>
+                <!-- use embed +"id of the video"  -->
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/TBoCOqsEoJQ">
+                </iframe>
+
+
+
+            </div>
+        </section>
+
+
+        <section id="contact" style=" height: 400px;">
+
+            <div class="card-about" style="border-top: 0;">
+                <h6>
+                    contact
+                </h6>
+
+                <form>
+                    <input type="text" id="fname" placeholder="First name  Last name"><br>
+                    <br></br>
+                    <input type="text" id="email" placeholder="Email"><br><br> <br>
+                    <input type="text" id="msg" placeholder="Your message "><br><br>
+                    <button type="submit"> Send </button>
+                </form>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- footer Page  -->
+    <footer>
+
+        <div class="footer">
+            <span class="copyright"> © 2020 Fatima Zohra BELABDI </span>
+
+        </div>
+    </footer>
+</body>
+
+</html>
